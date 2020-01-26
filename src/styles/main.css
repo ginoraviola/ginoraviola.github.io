@@ -1,0 +1,24 @@
+:root {
+    /* Texts */
+    --primary-color: white;
+    --secondary-color: #8f8f8f;
+    --yellow: #ffe600
+}
+.accent {
+    color: var(--yellow);
+}
+.bold {
+    font-weight: bold;
+}
+i {
+    color: var(--secondary-color);
+    font-size: 30px;
+}
+@keyframes appearance {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+}
