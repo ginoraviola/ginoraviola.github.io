@@ -1,4 +1,3 @@
 module.exports = {
-  publicPath: '/my-resume',
-  outputDir: 'docs',
+  publicPath: '/GinoR96.github.io',
 };
