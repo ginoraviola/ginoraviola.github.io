@@ -1,18 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <script src="https://kit.fontawesome.com/af00b376e2.js"></script>
-    <title>resume</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but resume doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/af00b376e2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<header>
+    <div id="parallax"></div>
+    <div class="profile-pic-wrapper">
+        <img id="profile-pic" src="profile-pic.jpg">
+    </div>
+    <div class="header-text">
+        <h2>Gino Raviola</h2>
+        <p>Frontend Developer</p>
+        <p class="subtitle">
+            <span>
+                <i class="fas fa-map-marker-alt"></i>
+                San Francisco, Cordoba - ARG
+            </span>
+            <span>
+                <i class="fas fa-globe-americas"></i>
+                Work Everywhere
+            </span>
+        </p>
+    </div>
+</header>
+<div class="section">
+    <p class="title">About me</p>
+    <p class="text">
+        <i class="fas fa-terminal"></i>
+        I was born in San Francisco, Cordoba - Argentina. Currently studying Systems Engineering and building my career
+        as a software developer. I'm 24 years old and very excited to learn as much as I can about Frontend Development.
+        My main interests are software, music and amateur photography.
+    </p>
+</div>
+<div class="section">
+    <p class="title">Experience</p>
+    <div class="exp-item text">
+        <span class="label">
+            [ 2018 - Present ]
+        </span>
+        <p>
+            <a target="_blank"
+               class="exp-item-title"
+               href="http://rooftop.dev">
+                <img src="https://rooftop.dev/static/img/rooftopIsotypes/favicon.png" class="exp-item-logo">
+                ROOFTOP
+            </a>: The most talented devs community.
+        </p>
+    </div>
+    <hr>
+    <div class="exp-item text">
+        <span class="label">
+            [ 2019 - Present ]
+        </span>
+        <p>
+            <a target="_blank"
+               class="exp-item-title"
+               href="http://www.workana.com">
+                <img src="https://wkncdn.com/newx/assets/build/img/logos-v3/m_logo.16736117c.png"
+                     class="exp-item-logo">
+                WORKANA
+            </a>: The most important online freelance work platform in Latin America.
+        </p>
+    </div>
+</div>
+<div class="section">
+    <p class="title">Technologies</p>
+    <div id="icon-section">
+        <table style="width:100%">
+            <tbody>
+            <tr>
+                <td>
+                    <i class="fab fa-html5" style="color: orange"></i>
+                </td>
+                <td>
+                    <i class="fab fa-js-square" style="color: yellow"></i>
+                </td>
+                <td>
+                    <i class="fab fa-css3-alt" style="color: #39c9f8"></i>
+                </td>
+                <td>
+                    <i class="fab fa-vuejs" style="color: #09bf62"></i>
+                </td>
+                <td>
+                    <i class="fab fa-react" style="color: dodgerblue"></i>
+                </td>
+            </tr>
+            <tr style="color: white; font-family: 'Avenir', monospace">
+                <td>
+                    HTML5
+                </td>
+                <td>
+                    JavaScript
+                </td>
+                <td>
+                    CSS
+                </td>
+                <td>
+                    Vue JS
+                </td>
+                <td>
+                    React JS
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<div class="section">
+    <p class="title">Portfolio</p>
+    <div>
+        <a href="http://www.github.com/GinoR96" class="gh-icon" target="_blank" rel="noreferrer">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+</div>
+<div class="section">
+    <p class="title">Contact</p>
+    <div style="text-align: center; margin: auto; display: block">
+        <p class="text">
+            <i class="fas fa-at" style="color: white; font-size: 22px"></i>
+            ginoraviola@gmail.com
+        </p>
+        <p class="text">
+            <i class="fas fa-mobile-alt" style="color: white; font-size: 25px"></i>
+            +543517879889
+        </p>
+    </div>
+</div>
+</body>
 </html>
